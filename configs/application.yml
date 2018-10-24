@@ -1,1 +1,6 @@
+logging:
+  level:
+    ROOT: ERROR
+    com.rabajaba: DEBUG
+
 yollo: hello
