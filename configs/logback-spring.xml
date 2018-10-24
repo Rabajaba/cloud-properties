@@ -14,6 +14,7 @@
         </encoder>
     </appender>
 
+    <sprin
 
     <logger name="ROOT">
         <appender-ref ref="STDOUT"/>
