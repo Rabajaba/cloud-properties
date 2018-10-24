@@ -3,5 +3,5 @@ logging:
     ROOT: ERROR
     com.rabajaba: DEBUG
   pattern:
-    console: "%d{yyyy-MM-dd HH:mm:ss z} ${appName}-${appConfig} [%thread] %-5level %class{50}.%method\(\):%line - %msg%n"
+    console: '%d{yyyy-MM-dd HH:mm:ss z} ${appName}-${appConfig} [%thread] %-5level %class{50}.%method\(\):%line - %msg%n'
 yollo: hello
