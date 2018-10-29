@@ -3,3 +3,11 @@ logging:
     ROOT: ERROR
     com.rabajaba: DEBUG
 yollo: hello
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000
